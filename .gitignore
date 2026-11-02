@@ -1,0 +1,28 @@
+# Visual Studio build artifacts
+.vs/
+bin/
+build/
+x64/
+x86/
+Debug/
+Release/
+*.obj
+*.pdb
+*.ilk
+*.idb
+*.tlog
+*.lastbuildstate
+*.log
+*.res
+*.pch
+*.ipch
+*.user
+*.aps
+*.opendb
+*.db
+*.VC.db
+
+# Temporary scratch & test dumps
+*.tmp
+*.bak
+test_output*.txt

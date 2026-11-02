@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Source Files\ucl">
+      <UniqueIdentifier>{81E4844F-A165-4235-9618-2C47CE9C3278}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="process_monitor.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="pak_engine.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="spr_decoder.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="media_preview.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ucl\alloc.c">
+      <Filter>Source Files\ucl</Filter>
+    </ClCompile>
+    <ClCompile Include="ucl\io.c">
+      <Filter>Source Files\ucl</Filter>
+    </ClCompile>
+    <ClCompile Include="ucl\n2b_99.c">
+      <Filter>Source Files\ucl</Filter>
+    </ClCompile>
+    <ClCompile Include="ucl\n2b_d.c">
+      <Filter>Source Files\ucl</Filter>
+    </ClCompile>
+    <ClCompile Include="ucl\n2b_ds.c">
+      <Filter>Source Files\ucl</Filter>
+    </ClCompile>
+    <ClCompile Include="ucl\n2b_to.c">
+      <Filter>Source Files\ucl</Filter>
+    </ClCompile>
+    <ClCompile Include="ucl\n2d_99.c">
+      <Filter>Source Files\ucl</Filter>
+    </ClCompile>
+    <ClCompile Include="ucl\n2d_d.c">
+      <Filter>Source Files\ucl</Filter>
+    </ClCompile>
+    <ClCompile Include="ucl\n2d_ds.c">
+      <Filter>Source Files\ucl</Filter>
+    </ClCompile>
+    <ClCompile Include="ucl\n2d_to.c">
+      <Filter>Source Files\ucl</Filter>
+    </ClCompile>
+    <ClCompile Include="ucl\n2e_99.c">
+      <Filter>Source Files\ucl</Filter>
+    </ClCompile>
+    <ClCompile Include="ucl\n2e_d.c">
+      <Filter>Source Files\ucl</Filter>
+    </ClCompile>
+    <ClCompile Include="ucl\n2e_ds.c">
+      <Filter>Source Files\ucl</Filter>
+    </ClCompile>
+    <ClCompile Include="ucl\n2e_to.c">
+      <Filter>Source Files\ucl</Filter>
+    </ClCompile>
+    <ClCompile Include="ucl\ucl_crc.c">
+      <Filter>Source Files\ucl</Filter>
+    </ClCompile>
+    <ClCompile Include="ucl\ucl_init.c">
+      <Filter>Source Files\ucl</Filter>
+    </ClCompile>
+    <ClCompile Include="ucl\ucl_ptr.c">
+      <Filter>Source Files\ucl</Filter>
+    </ClCompile>
+    <ClCompile Include="ucl\ucl_str.c">
+      <Filter>Source Files\ucl</Filter>
+    </ClCompile>
+    <ClCompile Include="ucl\ucl_util.c">
+      <Filter>Source Files\ucl</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="resource.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="listview_sorter.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="pak_engine.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="spr_decoder.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="media_preview.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="process_monitor.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ucl\ucl_win64_fix.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="FindInProcess.rc">
+      <Filter>Resource Files</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Manifest Include="app.manifest" />
+  </ItemGroup>
+</Project>
